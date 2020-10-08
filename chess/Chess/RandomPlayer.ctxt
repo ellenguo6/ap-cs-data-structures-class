@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=b\ s\ c
-comment0.target=RandomPlayer(Board,\ java.lang.String,\ java.awt.Color)
-comment0.text=\n\ Creates\ an\ instance\ of\ the\ RandomPlayer\ class\ with\ the\ given\ attributes\n\ \n\ @param\ b\ the\ board\ this\ player\ is\ playing\ in\n\ @param\ s\ the\ name\ of\ this\ player\n\ @param\ c\ the\ color\ of\ this\ player\n
-comment1.params=
-comment1.target=Move\ nextMove()
-comment1.text=\n\ Out\ of\ all\ its\ possible\ moves,\ the\ RandomPlayer\ chooses\ one\ randomly\n\ \n\ @return\ move\ a\ randomly\ selected\ move\n
-numComments=2
