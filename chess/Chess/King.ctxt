@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=col\ fileName
-comment0.target=King(java.awt.Color,\ java.lang.String)
-comment0.text=\n\ constructs\ a\ new\ King\ with\ the\ given\ attributes.\n\ \n\ @param\ col\ the\ color\ of\ the\ new\ king\n\ @param\ fileName\ the\ name\ of\ the\ file\ used\ to\ display\ this\ king\n
-comment1.params=
-comment1.target=java.util.ArrayList\ destinations()
-comment1.text=\n\ Gets\ a\ list\ of\ Locations\ that\ this\ King\ can\ move\ to\n\ Kings\ can\ move\ one\ square\ in\ all\ 8\ directions,\ provided\ it\ is\ within\ \n\ the\ bounds\ of\ the\ board\ and\ not\ occupied\ by\ a\ piece\ of\ the\ same\ color\n\ \n\ @return\ the\ possible\ Locations\n
-numComments=2
