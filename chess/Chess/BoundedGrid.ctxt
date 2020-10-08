@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.params=rows\ cols
-comment0.target=BoundedGrid(int,\ int)
-comment0.text=\n\ Constructs\ an\ empty\ bounded\ grid\ with\ the\ given\ dimensions.\n\ (Precondition\:\ <code>rows\ >\ 0</code>\ and\ <code>cols\ >\ 0</code>.)\n\ @param\ rows\ number\ of\ rows\ in\ BoundedGrid\n\ @param\ cols\ number\ of\ columns\ in\ BoundedGrid\n
-comment1.params=
-comment1.target=int\ getNumRows()
-comment2.params=
-comment2.target=int\ getNumCols()
-numComments=3
