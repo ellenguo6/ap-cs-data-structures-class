@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=col\ fileName
+comment0.target=Knight(java.awt.Color,\ java.lang.String)
+comment0.text=\n\ constructs\ a\ new\ Knight\ with\ the\ given\ attributes.\n\ \n\ @param\ col\ the\ color\ of\ the\ new\ knight\n\ @param\ fileName\ the\ name\ of\ the\ file\ used\ to\ display\ this\ knight\n
+comment1.params=
+comment1.target=java.util.ArrayList\ destinations()
+comment1.text=\n\ Gets\ a\ list\ of\ Locations\ that\ this\ Knight\ can\ move\ to\n\ Knights\ move\ in\ the\ shape\ of\ an\ L\ (so\ max\ of\ 8\ possible\ destinations)\n\ they\ can\ jump\ over\ other\ pieces\n\ \n\ @return\ the\ possible\ Locations\n
+numComments=2
