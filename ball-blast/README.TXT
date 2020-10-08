@@ -1,12 +1,9 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+BALL BLAST
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+Java replication of the mobile game Ball Blast, where a cannon is used to shoot falling balls. The balls split into two smaller balls after a certain amount of hits. The game ends when a ball falls on a cannon. 
+
+Uses BlueJ IDE. 
+
+@author Ellen Guo
+@author Emma Dionne
+@version 5/29/19
