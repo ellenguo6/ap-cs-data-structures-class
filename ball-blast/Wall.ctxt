@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=xcoord\ ycoord\ w\ h
+comment0.target=Wall(double,\ double,\ double,\ double)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Wall,\ is\ light\ gray\ and\ rectangular\n\ \n\ @param\ xcoord\ the\ starting\ x\ position\n\ @param\ ycoord\ the\ strating\ y\ position\n\ @param\ w\ the\ width\n\ @param\ h\ the\ height\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Implements\ the\ Shape's\ abstract\ move()\ method,\ but\ since\ the\ wall\n\ doesn't\ move,\ this\ move()\ does\ nothing\n
+numComments=2

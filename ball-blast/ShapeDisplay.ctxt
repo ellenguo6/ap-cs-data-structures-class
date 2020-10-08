@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ShapeDisplay()
+comment1.params=title
+comment1.target=void\ setTitle(java.lang.String)
+comment10.params=y
+comment10.target=double\ convertY(double)
+comment2.params=color
+comment2.target=void\ setBackgroundColor(java.awt.Color)
+comment3.params=shape
+comment3.target=void\ add(Shape)
+comment4.params=
+comment4.target=java.util.Iterator\ shapes()
+comment5.params=
+comment5.target=java.util.ArrayList\ getArrayList()
+comment5.text=\n\ Ellen\ and\ Emma's\ method\n\ \n\ Gets\ the\ pointer\ to\ the\ List\ of\ Shapes\n\ \n\ @return\ the\ list\n
+comment6.params=listener
+comment6.target=void\ addKeyListener(java.awt.event.KeyListener)
+comment7.params=listener
+comment7.target=void\ addMouseListener(java.awt.event.MouseListener)
+comment8.params=g
+comment8.target=void\ paintComponent(java.awt.Graphics)
+comment9.params=x
+comment9.target=double\ convertX(double)
+numComments=11

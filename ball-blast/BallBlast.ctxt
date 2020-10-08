@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BallBlast()
+comment0.text=\n\ Constructor\ for\ objects\ of\ the\ BallBlast\ class\n\ Instantiates\ a\ shape\ display\ \n\ Creates\ the\ walls\ in\ the\ game\n\ Starts\ playing\ the\ game\n
+comment1.params=
+comment1.target=void\ play()
+comment1.text=\n\ Plays\ the\ game\ of\ BallBlast\!\n\ Bullets\ are\ constantly\ spawned\ in\ groups\ of\ 3\n\ Every\ 300\ bullets\ a\ ball\ is\ spawned,\ random\ size\ and\ random\ value\n\ Collisions\ between\ balls,\ bullets,\ walls,\ and\ cannon\ are\ checked\n
+comment2.params=list
+comment2.target=boolean\ checkCollisions(java.util.ArrayList)
+comment2.text=\n\ Looks\ at\ every\ combination\ of\ shapes\ and\ sees\ if\ they\ collide\n\ If\ some\ shapes\ need\ to\ be\ removed\ or\ added,\ they\ are\ done\ after\ checking\ each\ combination\n\ \n\ @param\ list\ the\ list\ of\ all\ shapes\ --\ checks\ these\ shapes\ for\ collisions\n\ @return\ boolean\ -\ returns\ false\ if\ the\ game\ ends\ (hits\ the\ cannon),\ true\ otherwise\n
+comment3.params=one\ two
+comment3.target=boolean\ isCollision(Shape,\ Shape)
+comment3.text=\n\ Sees\ if\ two\ given\ shapes\ are\ colliding\n\ definition\ of\ a\ collision\:\ if\ the\ top,\ bottom,\ left,\ and\ \n\ right\ points\ of\ Shape\ 2\ are\ contained\ within\ Shape\ 1\n\ \n\ @param\ one\ the\ first\ shape\n\ @param\ two\ the\ second\ shape\ \n\ @return\ true\ if\ the\ two\ shapes\ collide,\ false\ otherwise\n
+comment4.params=shape\ x2\ y2
+comment4.target=boolean\ containsPoint(Shape,\ double,\ double)
+comment4.text=\n\ Sees\ if\ a\ given\ point\ is\ within\ a\ given\ shape\n\ \n\ @param\ shape\ the\ given\ shape\n\ @param\ x2\ the\ x\ value\ of\ the\ point\n\ @param\ y2\ the\ y\ value\ of\ the\ point\n\ @return\ true\ if\ the\ shape\ contains\ the\ point\ \n
+comment5.params=removed\ adds\ list\ onedex\ twodex
+comment5.target=boolean\ handleCollision(java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList,\ int,\ int)
+comment5.text=\n\ checks\ if\ a\ collision\ exists\ between\ two\ given\ shapes;\ if\ they\ collide,\ handles\ the\ collision\n\ When\ wall\ collides\ with\ a\ bullet,\ the\ bullet\ is\ added\ to\ the\ "to\ be\ deleted"\ list\n\ \ \ \ \ \ ie.\ the\ bullet\ should\ disappear\n\ When\ ball\ collides\ with\ cannon,\ return\ false\n\ When\ ball\ collides\ with\ bullet,\ the\ bullet\ is\ added\ to\ the\ \n\ \ \ \ \ \ "to\ be\ deleted"\ list\ (bullet\ should\ disappear)\n\ \ \ \ \ \ the\ ball's\ value\ decreases;\ if\ the\ ball's\ value\ gets\ to\ \n\ \ \ \ \ \ 0\ and\ the\ ball\ is\ greater\ than\ size\ 1,\ \n\ \ \ \ \ \ the\ ball\ splits\ into\ two\ balls,\ same\ color,\ half\ the\ value\ \n\ \ \ \ \ \ and\ one\ size\ down.\ They\ are\ put\ in\ the\ \n\ \ \ \ \ \ "to\ be\ added"\ list.\ If\ the\ size\ is\ 1\ (smallest\ size)\ the\ ball\ disappears\n\ If\ the\ ball\ hits\ the\ wall,\ it\ bounces\n\ \n\ @param\ removed\ the\ "to\ be\ deleted"\ list\n\ @param\ adds\ the\ "to\ be\ added"\ list\n\ @param\ list\ the\ list\ of\ shapes\n\ @param\ onedex\ the\ index\ in\ list\ of\ the\ first\ shape\n\ @param\ twodex\ the\ index\ in\ the\ list\ of\ the\ second\ shape\n\ \n\ @return\ false\ if\ the\ cannon\ is\ hit\ by\ the\ ball,\ true\ otherwise\n
+comment6.params=e
+comment6.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment6.text=\n\ When\ the\ left\ or\ right\ key\ is\ pressed,\ the\ cannon\ moves,\ \n\ but\ the\ cannon\ cannot\ move\ past\ the\ walls\n\ \n\ @param\ e\ the\ key\ press\ event\n
+numComments=7

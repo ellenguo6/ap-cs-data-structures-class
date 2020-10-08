@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Bullet(double,\ double)
+comment0.text=\n\ Constructs\ a\ bullet\ by\ only\ calling\ the\ move\ method.\n\ \n\ @param\ x\ the\ starting\ x\ position\n\ @param\ y\ the\ starting\ y\ position\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\n\ Sets\ the\ y\ value\ up\ calling\ the\ super\ class's\ method,\ ie\ moves\ the\ bullet\ up\ \n
+numComments=2
