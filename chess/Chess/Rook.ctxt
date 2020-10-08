@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=col\ fileName
-comment0.target=Rook(java.awt.Color,\ java.lang.String)
-comment0.text=\n\ constructs\ a\ new\ Rook\ with\ the\ given\ attributes.\n\ \n\ @param\ col\ the\ color\ of\ the\ new\ piece\n\ @param\ fileName\ the\ name\ of\ the\ file\ used\ to\ display\ this\ rook\n
-comment1.params=
-comment1.target=java.util.ArrayList\ destinations()
-comment1.text=\n\ Gets\ a\ list\ of\ Locations\ that\ this\ Rook\ can\ move\ to\n\ Rooks\ can\ move\ in\ four\ directions\:\ north,\ south,\ east,\ and\ west\n\ They\ can\ move\ as\ many\ squares\ as\ they'd\ like,\ without\ "jumping\ over"\ other\ pieces\n\ \n\ @return\ the\ possible\ Locations\n
-numComments=2
