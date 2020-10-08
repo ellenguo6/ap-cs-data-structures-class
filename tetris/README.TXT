@@ -1,12 +1,10 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+TETRIS
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+The classic tile-matching puzzle Soviet video game of Tetris!
+
+Uses BlueJ IDE. 
+
+Create an instance of the Tetris class to start playing.
+
+@author Ellen Guo
+@version 3/26/19
