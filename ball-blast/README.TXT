@@ -4,6 +4,8 @@ Java replication of the mobile game Ball Blast, where a cannon is used to shoot 
 
 Uses BlueJ IDE. 
 
+Begin the game by creating an instance of the BallBlast class. 
+
 @author Ellen Guo
 @author Emma Dionne
 @version 5/29/19
