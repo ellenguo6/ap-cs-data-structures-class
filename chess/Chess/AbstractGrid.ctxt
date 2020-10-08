@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=java.lang.String\ toString()
-comment0.text=\n\ Creates\ a\ string\ that\ describes\ this\ grid.\n\ @return\ a\ string\ with\ descriptions\ of\ all\ objects\ in\ this\ grid\ (not\n\ necessarily\ in\ any\ particular\ order),\ in\ the\ format\ {loc\=obj,\ loc\=obj,\n\ ...}\n
-numComments=1
