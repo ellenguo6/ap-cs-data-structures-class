@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=col\ fileName
+comment0.target=Bishop(java.awt.Color,\ java.lang.String)
+comment0.text=\n\ constructs\ a\ new\ Bishop\ with\ the\ given\ attributes.\n\ \n\ @param\ col\ the\ color\ of\ the\ new\ bishop\n\ @param\ fileName\ the\ name\ of\ the\ file\ used\ to\ display\ this\ bishop\n
+comment1.params=
+comment1.target=java.util.ArrayList\ destinations()
+comment1.text=\n\ Gets\ a\ list\ of\ Locations\ that\ this\ Bishop\ can\ move\ to\n\ Bishops\ can\ move\ as\ many\ square\ as\ they\ want,\ \n\ but\ only\ in\ diagonal\ directions\ (NE,\ NW,\ SE,\ SW)\n\ they\ cannot\ jump\ over\ other\ pieces,\ \n\ but\ can\ capture\ pieces\ of\ the\ opposing\ color\ in\ the\ location\n\ they\ land\n\ \n\ @return\ the\ possible\ Locations\n
+numComments=2

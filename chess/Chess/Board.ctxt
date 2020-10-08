@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Board()
+comment0.text=\n\ Constructs\ a\ new\ Board\ with\ the\ given\ dimensions\n
+comment1.params=move
+comment1.target=void\ undoMove(Move)
+comment1.text=\n\ undos\ the\ given\ move\ (that\ has\ already\ occurred)\n\ \n\ @param\ move\ the\ move\ to\ undo\n\ \n\ @precondition\ move\ has\ already\ been\ made\ on\ the\ board\n\ @postcondition\ piece\ has\ moved\ back\ to\ its\ source,\n\ \ \ \ \ \ and\ any\ captured\ piece\ is\ returned\ to\ its\ location\n
+comment2.params=color
+comment2.target=java.util.ArrayList\ allMoves(java.awt.Color)
+comment2.text=\n\ Gets\ a\ list\ of\ all\ the\ possible\ moves\ that\ a\ given\ color\ can\ make\n\ \n\ @param\ color\ the\ color\ whose\ moves\ you\ are\ finding\n\ \n\ @return\ the\ list\ of\ the\ possible\ moves\n
+comment3.params=move
+comment3.target=void\ executeMove(Move)
+comment3.text=\n\ Makes\ a\ given\ move\ happen\!\n\ \n\ @param\ move\ the\ given\ move\ to\ execute\n\ @postcondition\ the\ board\ and\ pieces\ have\ been\ updated\ to\ reflect\ the\ move\n
+numComments=4

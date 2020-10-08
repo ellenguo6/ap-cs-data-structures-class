@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=col\ fileName
+comment0.target=Pawn(java.awt.Color,\ java.lang.String)
+comment0.text=\n\ constructs\ a\ new\ Pawn\ with\ the\ given\ attributes.\n\ \n\ @param\ col\ the\ color\ of\ the\ new\ pawn\n\ @param\ fileName\ the\ name\ of\ the\ file\ used\ to\ display\ this\ pawn\n
+comment1.params=
+comment1.target=java.util.ArrayList\ destinations()
+comment1.text=\n\ Gets\ a\ list\ of\ Locations\ that\ this\ Pawn\ can\ move\ to\n\ Pawns\ can\ only\ move\ 1\ square\ forward,\ or\ capture\ pieces\ of\ the\ opposing\ color\n\ through\ diagonals\ only\n\ if\ it's\ the\ pawn's\ first\ move,\ it\ may\ also\ move\ 2\ squares\ forward,\ provided\n\ it\ doesn't\ jump\ over\ other\ pieces\n\ \n\ @return\ the\ possible\ Locations\n
+comment2.params=f
+comment2.target=void\ setFirstMove(boolean)
+comment2.text=\n\ Sets\ the\ firstMove\ instance\ var\ to\ a\ given\ boolean\n\ \n\ @param\ f\ the\ given\ value\n
+numComments=3
