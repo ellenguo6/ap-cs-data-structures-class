@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=type\ s
+comment0.target=Token(Scanner.TOKEN_TYPE,\ java.lang.String)
+comment0.text=\n\ Constructs\ a\ token\ with\ ta\ given\ type\ and\ string\n\ \n\ @param\ type\ the\ type\ of\ token,\ one\ of\ six\ types\n\ @param\ s\ the\ token\ content\n
+comment1.params=
+comment1.target=Scanner.TOKEN_TYPE\ getType()
+comment1.text=\n\ Getter\ for\ the\ token\ type\n\ \n\ @return\ the\ type\ (1\ of\ 6\ types)\n
+comment2.params=
+comment2.target=java.lang.String\ getToken()
+comment2.text=\n\ Getter\ for\ the\ token\ content\n\ \n\ @return\ the\ token\ content\ as\ a\ String\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=t
+comment4.target=boolean\ equals(java.lang.Object)
+numComments=5

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=Document(Scanner)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Document\n\ \n\ @param\ s\ the\ Scanner\ that\ tokenizes\ the\ document\ we\ are\ parsing\n
+comment1.params=
+comment1.target=void\ getNextToken()
+comment1.text=\n\ updates\ the\ current\ Token\ instance\ variable\ with\ the\ next\ Token\n\ from\ the\ Scanner\ instance\ variable\n\ O(1)\n\ \n\ @postcondition\ the\ current\ Token\ has\ been\ updated\ accordingly\n
+comment2.params=t
+comment2.target=void\ eat(Token)
+comment2.text=\n\ Advances\ the\ input\ stream\ if\ the\ given\ Token\ matches\ the\ current\ Token\ instance\ variable\n\ otherwise,\ throws\ a\ RuntimeException\ that\ states\ the\ un-eat()-able\ Token\ \n\ O(1)\n\ \n\ @param\ t\ the\ Token\ to\ eat\n
+comment3.params=t
+comment3.target=Phrase\ parsePhrase(Token)
+comment3.text=\n\ Adds\ the\ current\ Token\ to\ a\ Phrase\ object\ if\ it\ is\ of\ type\ WORD\n\ continues\ eat()-ing\ (recursively)\ until\ the\ Token\ is\ of\ type\ \n\ END_OF_PHRASE,\ END_OF_FILE,\ or\ END_OF_SENTENCE\n\ other\ Token\ types\ are\ not\ considered\ and\ thus\ skipped\n\ O(n)\n\ \n\ @param\ t\ the\ Token\ to\ start\ at\ \n\ \n\ @return\ a\ Phrase\ of\ WORD\ Tokens\n
+comment4.params=t\ p
+comment4.target=Phrase\ parsePhraseHelper(Token,\ Phrase)
+comment4.text=\n\ recursive\ helper\ method\ for\ parsePhrase;\ adds\ all\ WORD\ Tokens\ following\ the\ given\ Token\n\ to\ the\ given\ Phrase\n\ \n\ @param\ t\ the\ Token\ to\ look\ at\n\ @param\ p\ the\ Phrase\ to\ add\ the\ following\ Tokens\ to\n\ \n\ @return\ a\ Phrase\ of\ WORD\ Tokens\n
+comment5.params=
+comment5.target=Sentence\ parseSentence()
+comment5.text=\n\ Calls\ parsePhrase()\ until\ the\ end\ of\ a\ sentence\ or\ end\ of\ the\ file\ is\ reached\n\ adds\ the\ return\ of\ the\ parsePhrase()\ into\ a\ Sentence\ object\n\ @return\ this\ Sentence\ of\ Phrase\ objects\n\ O(n)\n
+comment6.params=
+comment6.target=void\ parseDocument()
+comment6.text=\n\ Calls\ parseSentence()\ until\ the\ end\ of\ the\ file\ is\ reached\n\ adds\ the\ return\ of\ the\ parseSentence()\ into\ the\ internal\ data\ structure\n\ skips\ any\ leading\ Token\ objects\ that\ aren\u2019t\ of\ type\ WORD\n\ O(n)\n\ \n\ @postcondition\ the\ instance\ field\ sentences\ is\ filled\ with\ Sentence\ objects\ \n\ \ \ \ \ \ that\ have\ been\ parsed\n
+comment7.params=
+comment7.target=java.util.List\ getSentences()
+comment7.text=\n\ Public\ getter\ for\ all\ the\ sentences\ in\ the\ document\n\ @return\ a\ shallow\ pointer\ to\ the\ internal\ data\ structure,\ not\ a\ new\ copy\n\ O(n)\n
+numComments=8

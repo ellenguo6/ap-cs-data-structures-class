@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Phrase()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Phrase\n\ Initializes\ the\ List\ of\ tokens\n
+comment1.params=t
+comment1.target=void\ add(Token)
+comment1.text=\n\ adds\ a\ given\ Token\ to\ the\ internal\ data\ structure\n\ O(1)\n\ \n\ @param\ t\ the\ Token\ to\ be\ added\n\ @postcondition\ the\ given\ token\ has\ been\ appended\ to\ the\ end\ of\ the\ List\n
+comment2.params=
+comment2.target=java.util.List\ copy()
+comment2.text=\n\ Copies\ the\ current\ list;\ not\ a\ shallow\ copy,\ creates\ new\ instances\ of\ each\ element\n\ O(n)\n\ \n\ @return\ a\ copy\ of\ the\ internal\ data\ structure\ of\ Token\ objects\ \n\ by\ traversing\ the\ structure\ and\ adding\ each\ element\ to\ a\ new\ List\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Gets\ a\ String\ representation\ of\ this\ Phrase,\ \n\ which\ is\ a\ bracketed\ list\ of\ the\ Token\ objects\ separated\ by\ commas\n\ O(n)\n\ \n\ @return\ the\ String\ version\ of\ this\ Phrase\n
+numComments=4

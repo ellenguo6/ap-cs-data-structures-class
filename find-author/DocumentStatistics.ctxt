@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=DocumentStatistics(Scanner)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ DocumentStatistics\n\ \n\ @param\ s\ the\ Scanner\ and\ its\ corresponding\ document\ for\ which\ to\ compute\ statistics\n
+comment1.params=
+comment1.target=void\ computeStats()
+comment1.text=\n\ Uses\ the\ Document\ class\ to\ parse\ the\ document,\ then\ traverses\ through\ every\ Sentence,\n\ Phrase,\ and\ Token\ to\ compute\ statistics\n\ \n\ a\ Set\ was\ used\ to\ determine\ the\ T-T\ and\ H-L\ ratio\ as\ sets\ only\ allow\ unique\ elements;\n\ if\ an\ element\ isn't\ unique,\ the\ add\ method's\ return\ would\ indicate\ as\ such,\ prompting\n\ a\ decrease\ in\ the\ number\ of\ words\ that\ appear\ only\ once\n\ \n\ @postcondition\ the\ List\ of\ stats\ has\ been\ updated\ according\ for\ the\ given\ document\n\ \ \ \ \ \ see\ instance\ field\ comment\ for\ index\ definitions\n
+comment2.params=
+comment2.target=java.util.List\ getStats()
+comment2.text=\n\ public\ accessor\ to\ get\ the\ stats\ of\ the\ document;\ thusly\ this\ object\ computes\ the\ statistics\n\ then\ returns\ a\ shallow\ copy\ of\ the\ internal\ data\ structure\ of\ statistics\n\ \n\ @return\ the\ statistics\ of\ this\ document\n
+numComments=3

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Scans\ the\ author\ signature\ files\ in\ a\ given\ directory,\ and\ compares\ those\n\ stats\ to\ the\ 5\ mystery\ files\ in\ a\ different\ direction,\ and\n\ outputs\ the\ predicted\ author\ of\ each\ file\n\n\ @param\ args\ arguments\ from\ the\ command\ line\n
+comment1.params=stats
+comment1.target=java.lang.String\ findAuthor(java.util.List)
+comment1.text=\n\ Helper\ method\ for\ the\ main\ method\ to\ compute\ the\ best\ author\ fit\ for\ a\ given\n\ set\ of\ stats\n\ \n\ @param\ stats\ the\ given\ stats\ (of\ the\ mystery\ doc)\ to\ compare\ to\n\ @return\ the\ author\ (from\ the\ filled-out\ instance\ field)\ that\ matches\ best\ to\ the\ given\ stats\n
+numComments=2
