@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=b\ s\ c\ bd
-comment0.target=HumanPlayer(Board,\ java.lang.String,\ java.awt.Color,\ BoardDisplay)
-comment0.text=\n\ Creates\ an\ instance\ of\ the\ HumanPlayer\ class\ with\ the\ given\ attributes\n\ \n\ @param\ b\ the\ board\ this\ player\ is\ playing\ in\n\ @param\ s\ the\ name\ of\ this\ player\n\ @param\ c\ the\ color\ of\ this\ player\n\ @param\ bd\ the\ display\ this\ player\ uses/clicks\n
-comment1.params=
-comment1.target=Move\ nextMove()
-comment1.text=\n\ Prompts\ the\ user\ for\ a\ move,\ and\ decides\ if\ it's\ valid\n\ If\ the\ move\ is\ valid,\ returns\ it\n\ otherwise\ continues\ to\ prompt\ the\ user\ for\ a\ move\ until\ a\ valid\ one\ is\ chosen\n\ \n\ @return\ the\ move\ chosen\n
-numComments=2
