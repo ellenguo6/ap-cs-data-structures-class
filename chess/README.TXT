@@ -1,12 +1,10 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+CHESS
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+The classic game of chess. The two players can each be one of the following: human input, "random" computer player, "smart" computer player. The "smart" computer player looks ahead n number of moves, where n can be inputted.  
+
+Uses BlueJ IDE.
+
+Begin the game by running the main() method in the Game class. 
+
+@author Ellen Guo
+@version 4/28/19
