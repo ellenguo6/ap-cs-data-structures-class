@@ -1,12 +1,10 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+Authorship detection: Finds the author of mystery files given signatures of 
+various authors by comparing the statistics of each mystery file with the stats 
+of the given authors and seeing which one matches the best. 
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+Uses BlueJ IDE.
+
+Run the program with the main() method in the FindAuthor class. 
+
+@author Ellen Guo
+@version 3/28/19
