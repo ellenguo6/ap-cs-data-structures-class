@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=int\ getNumRows()
-comment0.text=\n\ Returns\ the\ number\ of\ rows\ in\ this\ grid.\n\ @return\ the\ number\ of\ rows,\ or\ -1\ if\ this\ grid\ is\ unbounded\n
-comment1.params=
-comment1.target=int\ getNumCols()
-comment1.text=\n\ Returns\ the\ number\ of\ columns\ in\ this\ grid.\n\ @return\ the\ number\ of\ columns,\ or\ -1\ if\ this\ grid\ is\ unbounded\n
-numComments=2
