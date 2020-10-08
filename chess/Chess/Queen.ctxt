@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=col\ fileName
-comment0.target=Queen(java.awt.Color,\ java.lang.String)
-comment0.text=\n\ constructs\ a\ new\ Queen\ with\ the\ given\ attributes.\n\ \n\ @param\ col\ the\ color\ of\ the\ new\ queen\n\ @param\ fileName\ the\ name\ of\ the\ file\ used\ to\ display\ this\ queen\n
-comment1.params=
-comment1.target=java.util.ArrayList\ destinations()
-comment1.text=\n\ Gets\ a\ list\ of\ Locations\ that\ this\ Queen\ can\ move\ to\n\ Queens\ can\ move\ as\ many\ square\ as\ they\ want,\ \n\ in\ all\ 8\ directions\ (N,\ S,\ E,\ W,\ NE,\ NW,\ SE,\ SW)\n\ they\ cannot\ jump\ over\ other\ pieces,\ \n\ but\ can\ capture\ pieces\ of\ the\ opposing\ color\ in\ the\ location\ they\ land\n\ \n\ @return\ the\ possible\ Locations\n
-numComments=2
